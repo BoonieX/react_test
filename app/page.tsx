@@ -5,7 +5,7 @@ import { useState } from "react";
 
 
 function ButtonImage() {
-  const [image, setImage] = useState();
+  const [image, setImage] = useState<string | null>(null);
   
   return (
     <div>
