@@ -11,7 +11,7 @@ function ButtonImage() {
   return (
     <div>
       {/* Fallback to empty string if `image` is undefined */}
-      <img src={image || ""} alt="Displayed content" />
+      <img src={image || ""} style={{height:'500px'}}/>
       <button
         onClick={() => {
           setImage(
